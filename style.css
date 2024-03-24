@@ -1,0 +1,210 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+
+header h1 {
+    display: inline;
+    margin-right: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+header nav ul  {
+    flex: 1;
+    text-align: center;
+    padding: 10px;
+    list-style: none;
+    background-color: #333;
+    color: rgb(166, 85, 85);
+}
+
+header nav ul li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    background-color: #444;
+}
+
+
+.hero {
+    background-image: url('photo-1534438327276-14e5300c3a48.avif');
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* increase the height of the hero section */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    color: white; /* make the text color white */
+    font-size: 2.5rem; /* increase the font size of the welcome to gym text */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* add a text shadow to make the text stand out */
+}
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.classes {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+.class-card {
+    background-color: #f4f4f4;
+    padding: 1rem;
+    border-radius: 5px;
+    width: 30%;}
+
+
+    .contact {
+        padding: 50px 0;
+        background-color: #f3f3f3;
+        position: relative;
+        overflow: hidden;
+      }
+      
+      .container {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 0 15px;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .contact:before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        background: url("https://example.com/image.jpg") no-repeat center center;
+        background-size: cover;
+        filter: blur(5px);
+        transform: scale(1.5);
+        z-index: 0;
+      }
+      
+      .contact h2 {
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        font-size: 48px;
+        font-weight: 700;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+        position: relative;
+        z-index: 1;
+      }
+      
+      .form-group {
+        margin-bottom: 20px;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .form-control {
+        width: 100%;
+        padding: 10px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+        line-height: 1.5;
+        border-radius: 0;
+        background-color: transparent;
+        box-shadow: none;
+        transition: border-color 0.2s ease;
+        position: relative;
+        z-index: 1;
+      }
+      
+      .form-control:focus {
+        border-color: #007bff;
+        .form-control:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+          }
+          
+          .form-control::placeholder {
+            color: #ccc;
+          }
+          
+          .form-control:disabled,
+          .form-control[readonly] {
+            background-color: #f3f3f3;
+            opacity: 1;
+          }
+          
+          .form-control:disabled:focus,
+          .form-control[readonly]:focus {
+            border-color: #ccc;
+            box-shadow: none;
+          }
+          
+          .form-group label {
+            display: block;
+            margin-bottom: 5px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #333;
+          }
+          
+          .form-group input[type="text"],
+          .form-group input[type="email"] {
+            height: 45px;
+          }
+          
+          .form-group textarea {
+            height: 120px;
+          }
+          
+          .form-group button[type="submit"] {
+            height: 45px;
+            background-color: #007bff;
+            border: none;
+            border-radius: 0;
+            color: #fff;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.2s ease;
+          }
+          
+          .form-group button[type="submit"]:hover {
+            background-color: #0069d9;
+          }
+          
+          .form-group button[type="submit"]:disabled {
+            background-color: #c0c0c0;
+            cursor: not-allowed;
+          }
+          
+          footer {
+            padding: 20px 0;
+            background-color: #333;
+            color: #fff;
+            text-align:center
+          }
+        }
